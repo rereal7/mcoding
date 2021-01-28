@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>スタンダードレイアウト</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="logo">
+      <a href="/">SANPLE SITE</a>
+    </h1>
+    <nav class="global-nav">
+      <ul>
+        <li class="nav-item active"><a href="#">HOME</a></li>
+        <li class="nav-item"><a href="#">ABOUT</a></li>
+        <li class="nav-item"><a href="#">NEWS</a></li>
+        <li class="nav-item"><a href="#">TOPICS</a></li>
+        <li class="nav-item"><a href="#">DOCS</a></li>
+        <li class="nav-item"><a href="#">BLOG</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="wrapper clearfix">
+    <main class="main">
+      <section class="hot-topic">
+        <h2 class="hidden">HOT TOPIC</h2>
+        <a href="#" class="hot-topic clearfix">
+          <img class="image" src="./images/hot-topic.jpg" alt="コーディング画像">
+          <div class="content">
+            <h3 class="title">実務で使えるHTML<br>モダンコーディングTIPS</h3>
+            <p class="desc">Webフロントエンドの進化の勢いはとどまるところを知りません。新しい要素が増えて大幅に表現力が広がったHTML/CSS3を活用して．．．</p>
+            <time class="date" datetime="2015-09-01">2021.01.27</time>
+          </div>
+        </a>
+
+      </section>
+      <section class="news">
+        <h2 class="heading">NEWS</h2>
+        <ul class="scroll-list">
+          <li class="scroll-item">
+            <a href="#">
+              <time class="date" datetime="2015-08-23">2021.01.26 TUE</time>
+              <span class="category news">NEWS</span>
+              <span class="title">WORKSを更新しました。</span>
+            </a>
+          </li>
+          <li class="scroll-item">
+            <a href="#">
+              <time class="date" datetime="2015-08-23">2021.01.27 WED</time>
+              <span class="category">TOPIC</span>
+              <span class="title">CSSでここまでできる！？ホントに使える CSSセレクタ１０選！</span>
+            </a>
+          </li>
+        </ul>
+
+      </section>
+      <section class="articles">
+      </section>
+    </main>
+    <div class="sidemenu">
+    </div>
+  </div>
+  <footer class="footer">
+  </footer>
+</body>
+</html>
