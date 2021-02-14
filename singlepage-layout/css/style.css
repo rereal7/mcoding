@@ -268,6 +268,9 @@ responsive
   }
 }
 @media (max-width: 768px) {
+  body {
+    font-size: 1.3rem;
+  }
   .site-title-sub::before, .site-title-sub::after {
     display: block;
     width: 80%;
@@ -288,9 +291,6 @@ responsive
   }
   .heading {
     font-size: 2.5rem;
-  }
-  body {
-    font-size: 1.3rem;
   }
   .about-text {
     line-height: 1.8;
